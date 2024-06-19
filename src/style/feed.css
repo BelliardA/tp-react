@@ -1,0 +1,61 @@
+/* CSS pour la page entière */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  /* Conteneur principal du feed */
+  .feed-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Titre du feed */
+  .feed-container h1 {
+    margin-bottom: 2rem;
+  }
+  
+  /* Grille des posts */
+  .posts-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  /* Carte de chaque post */
+  .post-card {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+    transition: transform 0.2s;
+  }
+  
+  .post-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Titre de chaque post */
+  .post-card h2 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  /* Contenu de chaque post */
+  .post-card p {
+    margin: 0.5rem 0 0;
+    color: #666;
+  }
+  
